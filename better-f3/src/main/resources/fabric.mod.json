@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "betterf3",
+  "version": "${version}",
+  "name": "Better F3",
+  "description": "Better F3 — свободная камера (Freecam).",
+  "authors": ["you"],
+  "license": "MIT",
+  "icon": "assets/betterf3/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.betterf3.BetterF3Client"]
+  },
+  "mixins": ["betterf3.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
